@@ -13,6 +13,9 @@ import {
   Col,
   List,
   Panel,
+  AvatarGroup,
+  Avatar,
+  Badge,
 } from 'rsuite';
 // import default style
 import 'rsuite/dist/rsuite.min.css';
@@ -63,6 +66,11 @@ function App() {
                     icon={toggleMode ? <Visible /> : <Unvisible />}
                   />
                 </ButtonToolbar>
+              </Nav.Item>
+              <Nav.Item>
+                <Badge content="69">
+                <Avatar size="md" src="https://i1.sndcdn.com/artworks-PhbFrkdPgRxZp94y-Zu7Hzw-t500x500.jpg" alt="@madara"/>
+                </Badge>
               </Nav.Item>
             </Nav>
           </Navbar>
